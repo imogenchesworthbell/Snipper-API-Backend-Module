@@ -1,3 +1,16 @@
+## How to run it
+
+1. In the terminal type:  ./gradlew bootRun
+2. Then go to postman and type:
+ - GET http://localhost:8080/snippets
+ - GET http://localhost:8080/snippets/1
+ - GET http://localhost:8080/snippets?lang=Python
+
+This will check each endpoint is working.
+
+
+## Task 
+
 You have been contracted to produce Snippr, a tool which allows users to save their useful code snippets. You will be making an MVP.
 GOAL: Create endpoints to POST code snippets and then GET them back.
 
